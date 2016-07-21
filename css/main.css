@@ -1,0 +1,69 @@
+@import "../fonts/Tahoma/styles.css" all;
+
+html, body {
+    background:#000;
+    min-height: 100%;
+}
+
+.content {
+    margin: 0 auto;
+    max-width: 980px;
+    min-height: 600px;
+    background: url(../img/logo.jpg) no-repeat;
+}
+.header {
+    position: relative;
+    height:440px;
+    min-width: 100%;
+	
+}
+
+.top-menu {
+    text-align: center;
+    top:250px;
+    position: relative;
+}
+
+.top-menu.nav-pills > li > a {
+    color:#fff;
+    font-size: 30px;
+	font-family: Tahoma;
+    line-height: 30px;
+	border: 1px solid transparent;
+}
+
+.top-menu.nav-pills > li > a:hover {
+    background: none;
+    border: 1px solid #fff;
+}
+
+.color-white {
+    color:#fff;
+}
+
+.color-white h1, .color-white h2, .color-white h3, .color-white h4 {
+    color:#fff;
+}
+
+.prodazh_farby {}
+.prodazh_farby p {
+    font-size: 16px;
+}
+
+.prodazh_farby li p {
+    font-size: 14px;
+}
+
+.prodazh_kartin .row {
+    margin-bottom: 10px;
+}
+
+.prodazh_kartin .row div:last-child p {
+    display: block;
+    height:100%;
+}
+
+.prodazh_kartin .row div:last-child {
+    display: table-cell;
+    vertical-align: middle;
+}
