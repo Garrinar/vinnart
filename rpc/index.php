@@ -3,7 +3,7 @@ if(!$_GET['grpc'] = 'y') {
     return false;
 }
 $result = array();
-if($_POST['handshake'] != 'carolina_kerry') {
+if($_POST['handshake'] != '52586674') {
 	$result = array(
 		'error' => 'Authentication error!'
 	);
